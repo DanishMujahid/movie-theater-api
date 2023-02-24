@@ -1,3 +1,4 @@
+
 //import dependencies
 const path = require('path') //helps us find our file easily
 const fs = require('fs').promises //helps us get access to promises when dealing with seeding data into our database
@@ -33,6 +34,8 @@ const seed = async () => {
 
     console.log("Shows and User database info populated!")
 }
+
+seed();
 
 //export my seed function
 module.exports = seed;
